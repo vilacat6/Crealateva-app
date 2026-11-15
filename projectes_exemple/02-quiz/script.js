@@ -2,7 +2,7 @@
 const preguntes = [
   { text: 'Quin llenguatge dóna estil a la web?', opcions: ['HTML', 'CSS', 'Git'], correcta: 1 },
   { text: 'Què s’utilitza per respondre a un clic?', opcions: ['JavaScript', 'PDF', 'Wi-Fi'], correcta: 0 },
-  { text: 'On deses versions del codi?', opcions: ['Un navegador', 'Git', 'Una imatge'], correcta: 1 }
+  { text: 'Quin fitxer obre una web?', opcions: ['index.html', 'imatge.png', 'notes.pdf'], correcta: 0 }
 ];
 let actual = 0; let punts = 0; let respost = false;
 const pregunta = document.getElementById('pregunta');

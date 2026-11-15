@@ -1,7 +1,8 @@
-VERSIÓ 4 - GUIES PAS A PAS
+PORTAL DE L’ALUMNAT · VERSIÓ 5 (DES DE ZERO)
 
-Publica NOMÉS els fitxers d’aquesta carpeta. No publiquis la carpeta del professorat.
-Els alumnes baixen els ZIP, els extreuen, obren la carpeta amb Visual Studio Code i executen index.html directament al navegador.
-Cada sessió porta instruccions clic a clic, exemples ABANS/DESPRÉS verificats i PDF.
-No cal GitHub, Vercel ni Live Server per a les activitats dels alumnes.
-El portal docent pot estar a Vercel per distribuir materials.
+Aquesta carpeta conté NOMÉS materials públics per a alumnes: pàgines web, fitxes PDF, exemples i ZIP.
+Per consultar-la en local, obre index.html amb un navegador.
+Per publicar-la al portal que ja existeix, copia el contingut d’aquesta carpeta al repositori existent.
+NO copiïs la carpeta professorat_PRIVAT_NO_PUBLICAR a la web pública.
+Els alumnes fan els seus propis jocs i apps localment (VS Code + Chrome, Ctrl+S + F5); no utilitzen GitHub, Vercel ni Live Server.
+No exigeixis comptes d’IA als menors: utilitza només l’eina autoritzada pel centre, amb supervisió i alternatives sense IA.

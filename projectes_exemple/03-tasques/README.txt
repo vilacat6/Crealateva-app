@@ -1,18 +1,14 @@
-LLISTA DE TASQUES
-1. Obre index.html al navegador.
-2. Escriu una tasca i prem Afegir.
-3. Elimina la tasca amb el botó.
-4. A index.html canvia el títol. A style.css canvia el color del botó.
-5. A script.js canvia el missatge que apareix quan no escrius res.
-6. Desa amb Ctrl+S i recarrega amb F5.
+LLISTA DE TASQUES · GUIA CURTA PER A PRINCIPIANTS
 
-Per comprovar els canvis: Ctrl+S a Visual Studio Code i F5 al navegador. Sense servidor, GitHub ni Vercel.
+1. Obre el ZIP des de Descàrregues i fes clic dret > Extreu-ho tot.
+2. Obre la carpeta extreta a Visual Studio Code: File > Open Folder.
+3. A la columna esquerra, fes clic a index.html.
+4. Prem Ctrl+F i busca exactament aquest fragment:
+   <h1>La meva llista de tasques</h1>
+5. Canvia NOMÉS el text «La meva llista de tasques» per «La meva agenda de deures». No esborris <h1> ni </h1>.
+6. Prem Ctrl+S i a Chrome obre index.html o prem F5 per actualitzar.
+7. Fes clic a un botó i comprova que encara funciona.
 
+Si després vols canviar els colors, obre style.css i busca #3156d3 amb Ctrl+F. Canvia només el color. Desa i torna a provar.
 
-COM MODIFICAR AQUEST PROJECTE (PAS A PAS)
-1. Extreu el ZIP i obre la carpeta a VS Code (File > Open Folder).
-2. A la columna esquerra, obre index.html, style.css o script.js.
-3. Prem Ctrl+F per cercar el text exacte de la fitxa de la sessió.
-4. Canvia NOMÉS el fragment indicat (no esborris etiquetes ni cometes).
-5. Prem Ctrl+S, obre index.html al navegador i prem F5.
-6. Si falla, torna a mirar el fragment ABANS/DESPRÉS de la fitxa.
+Recorda: els tres fitxers index.html, style.css i script.js han d'estar junts. No cal Live Server, GitHub ni Vercel.

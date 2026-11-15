@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atrapa l'estrella!</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; background: #eaf3ff; margin: 0; padding: 24px; color: #172842; }
+  main { max-width: 540px; margin: 35px auto; padding: 26px; border-radius: 16px; background: white; text-align: center; box-shadow: 0 12px 28px #183b6e22; }
+  button { padding: 14px 22px; font: inherit; font-weight: bold; background: #294fd1; color: white; border: 0; border-radius: 12px; cursor: pointer; margin: 6px; }
+  button:focus-visible { outline: 3px solid orange; }
+  #estrella { font-size: 36px; min-height: 82px; }
+  #punts { font-size: 24px; font-weight: bold; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Atrapa l'estrella! ⭐</h1>
+  <p>Prem l'estrella per aconseguir 5 punts.</p>
+  <p id="punts">Punts: 0</p>
+  <button id="estrella">⭐</button>
+  <p id="missatge" role="status">A punt per començar?</p>
+  <button id="reinicia">Tornar a començar</button>
+</main>
+<script>
+  let punts = 0;
+  const comptador = document.getElementById('punts');
+  const missatge = document.getElementById('missatge');
+  document.getElementById('estrella').addEventListener('click', function () {
+    if (punts >= 5) return;
+    punts = punts + 1;
+    comptador.textContent = 'Punts: ' + punts;
+    missatge.textContent = punts >= 5 ? 'Has guanyat! 🎉' : 'Molt bé, continua!';
+  });
+  document.getElementById('reinicia').addEventListener('click', function () {
+    punts = 0;
+    comptador.textContent = 'Punts: 0';
+    missatge.textContent = 'Torna-ho a intentar!';
+  });
+</script>
+</body>
+</html>

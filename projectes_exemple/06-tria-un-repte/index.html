@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tria un repte!</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; background: #fff4db; margin: 0; padding: 24px; color: #273348; }
+  main { max-width: 570px; margin: 40px auto; padding: 30px; border-radius: 18px; background: #fff; text-align: center; box-shadow: 0 12px 30px #33220d20; }
+  button { background: #187665; color: white; border: 0; border-radius: 12px; padding: 14px 20px; font: inherit; font-weight: bold; cursor: pointer; }
+  button:focus-visible { outline: 3px solid orange; }
+  #resultat { min-height: 80px; padding: 18px; margin-top: 18px; border-radius: 12px; background: #eaf8f2; font-weight: bold; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tria un repte! 🎲</h1>
+  <p>No saps què fer? Prem el botó i prova una idea.</p>
+  <button id="tria">Dona'm una idea</button>
+  <p id="resultat" role="status">El teu repte apareixerà aquí.</p>
+</main>
+<script>
+  const reptes = ['Llegeix 5 pàgines 📖', 'Dibuixa un animal 🎨', 'Fes 10 salts ⭐', 'Endreça la motxilla 🎒'];
+  let anterior = -1;
+  document.getElementById('tria').addEventListener('click', function () {
+    let posicio = Math.floor(Math.random() * reptes.length);
+    if (reptes.length > 1 && posicio === anterior) posicio = (posicio + 1) % reptes.length;
+    anterior = posicio;
+    document.getElementById('resultat').textContent = reptes[posicio];
+  });
+</script>
+</body>
+</html>

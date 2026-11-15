@@ -1,0 +1,12 @@
+PROJECTE D’EXEMPLE: 05-atrapa-estrella
+
+COM OBRIR-LO SENSE PUBLICAR RES
+1. Extreu el ZIP amb el botó dret > Extreu-ho tot.
+2. A l’Explorador de Windows entra a la carpeta extreta.
+3. Fes doble clic a index.html per veure la web a Chrome.
+4. Si vols modificar-la: VS Code > File > Open Folder > tria la carpeta extreta.
+5. Desa els canvis amb Ctrl+S i a Chrome prem F5.
+
+AQUEST EXEMPLE TÉ UN SOL FITXER index.html. El CSS i JavaScript són dins del mateix fitxer.
+
+Si no tens autorització per fer servir una IA, pots partir d’aquesta plantilla i personalitzar-la.

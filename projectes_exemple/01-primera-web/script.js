@@ -1,4 +1,4 @@
-// Aquesta funció s'executa quan prems el botó.
+// Aquest fitxer decideix què passa quan prems el botó.
 const boto = document.getElementById('saludar');
 const campNom = document.getElementById('nom');
 const resultat = document.getElementById('resultat');
