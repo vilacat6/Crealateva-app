@@ -1,1 +1,4 @@
-Aquesta carpeta és la part pública del kit. Puja el contingut sencer al servidor (index.html a l’arrel). No hi posis els solucionaris del docent.
+VERSIÓ SIMPLIFICADA PER A ESO
+Puja TOT el contingut d’aquesta carpeta al repositori del portal, conservant assets, sessions, documents_pdf, plantilles_editables, projectes_exemple i descàrregues.
+Després fes commit + push a GitHub perquè Vercel actualitzi la web.
+No publiquis documents del professorat.

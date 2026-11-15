@@ -1,7 +1,7 @@
-PRÀCTICA 01 - LA PRIMERA WEB
-1. Extreu el ZIP i obre aquesta carpeta a Visual Studio Code.
-2. Obre index.html al navegador.
-3. Introdueix un nom, prem el botó i comprova el missatge.
-4. Canvia: títol a HTML, color del botó a CSS, missatge a JavaScript.
-5. Desa i recarrega per verificar els canvis.
-No necessita Node.js ni internet.
+PRIMERA WEB · SESSIÓ 2
+1. Obre index.html al navegador. Escriu un nom i prem Saluda’m.
+2. A index.html canvia el títol «La meva primera web».
+3. A style.css busca #3156d3 i canvia-ho per #187665 (verd).
+4. A script.js canvia «Hola» per «Benvingut/da».
+5. Desa amb Ctrl+S, torna al navegador i prem F5.
+6. Mostra els 3 canvis al professor.
