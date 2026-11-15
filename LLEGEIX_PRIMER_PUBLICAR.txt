@@ -1,0 +1,1 @@
+Aquesta carpeta és la part pública del kit. Puja el contingut sencer al servidor (index.html a l’arrel). No hi posis els solucionaris del docent.
