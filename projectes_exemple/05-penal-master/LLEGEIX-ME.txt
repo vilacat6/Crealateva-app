@@ -1,0 +1,6 @@
+EXEMPLE · 05-penal-master
+Joc de penals: xuta a esquerra, centre o dreta durant cinc rondes. El porter intenta parar. Tot dins d’un index.html; doble clic per jugar.
+
+PASSOS: 1. Extreu el ZIP. 2. Fes doble clic a index.html. 3. Per canviar-lo, obre la carpeta amb Visual Studio Code, desa amb Ctrl+S i actualitza amb F5.
+
+No necessita Live Server, GitHub ni Vercel. No desa les dades després de tancar la pàgina.

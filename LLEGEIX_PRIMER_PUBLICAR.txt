@@ -6,3 +6,5 @@ Per publicar-la al portal que ja existeix, copia el contingut d’aquesta carpet
 NO copiïs la carpeta professorat_PRIVAT_NO_PUBLICAR a la web pública.
 Els alumnes fan els seus propis jocs i apps localment (VS Code + Chrome, Ctrl+S + F5); no utilitzen GitHub, Vercel ni Live Server.
 No exigeixis comptes d’IA als menors: utilitza només l’eina autoritzada pel centre, amb supervisió i alternatives sense IA.
+
+NOU V6: el generador de prompts no pregunta cap edat; ofereix 12 idees de joc i app i no limita artificialment el nombre de botons. Exemples offline: 05-penal-master i 06-planificador-estudi.

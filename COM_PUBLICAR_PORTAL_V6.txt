@@ -1,0 +1,1 @@
+Per al professor: aquests fitxers son per actualitzar el PORTAL de materials de Vercel, no les apps dels alumnes. Copia el contingut a Crealateva-app, no la carpeta sencera. Conserveu .git. Despres, Commit i Sync Changes. Si hi ha exemples antics 05-atrapa-estrella o 06-tria-un-repte, elimineu-los per evitar duplicats. El professorat te un ZIP separat que NO s'ha de publicar.

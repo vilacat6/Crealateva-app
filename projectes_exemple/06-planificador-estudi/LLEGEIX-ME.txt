@@ -1,0 +1,6 @@
+EXEMPLE · 06-planificador-estudi
+App de tasques d’estudi: afegeix assignatures, deures i minuts; marca com fet i mira el percentatge. Tot dins d’un index.html; doble clic per obrir.
+
+PASSOS: 1. Extreu el ZIP. 2. Fes doble clic a index.html. 3. Per canviar-lo, obre la carpeta amb Visual Studio Code, desa amb Ctrl+S i actualitza amb F5.
+
+No necessita Live Server, GitHub ni Vercel. No desa les dades després de tancar la pàgina.
