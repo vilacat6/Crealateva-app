@@ -5,3 +5,5 @@ LLISTA DE TASQUES
 4. A index.html canvia el títol. A style.css canvia el color del botó.
 5. A script.js canvia el missatge que apareix quan no escrius res.
 6. Desa amb Ctrl+S i recarrega amb F5.
+
+Per comprovar els canvis: Ctrl+S a Visual Studio Code i F5 al navegador. Sense servidor, GitHub ni Vercel.

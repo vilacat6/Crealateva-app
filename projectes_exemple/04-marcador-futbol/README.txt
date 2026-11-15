@@ -6,3 +6,5 @@ MARCADOR DE FUTBOL · PROJECTE PER PERSONALITZAR
 5. A style.css canvia el color del botó blau.
 6. A script.js canvia el missatge «Gol!».
 Desa amb Ctrl+S i recarrega amb F5.
+
+Per comprovar els canvis: Ctrl+S a Visual Studio Code i F5 al navegador. Sense servidor, GitHub ni Vercel.

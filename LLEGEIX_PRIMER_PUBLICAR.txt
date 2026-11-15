@@ -1,4 +1,1 @@
-VERSIÓ SIMPLIFICADA PER A ESO
-Puja TOT el contingut d’aquesta carpeta al repositori del portal, conservant assets, sessions, documents_pdf, plantilles_editables, projectes_exemple i descàrregues.
-Després fes commit + push a GitHub perquè Vercel actualitzi la web.
-No publiquis documents del professorat.
+Puja el CONTINGUT d’aquesta carpeta al servidor només si vols tenir les instruccions i descàrregues accessibles a internet. Les apps dels alumnes es fan i es revisen en local.
