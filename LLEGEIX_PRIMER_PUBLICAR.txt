@@ -1,1 +1,7 @@
-Puja el CONTINGUT d’aquesta carpeta al servidor només si vols tenir les instruccions i descàrregues accessibles a internet. Les apps dels alumnes es fan i es revisen en local.
+VERSIÓ 4 - GUIES PAS A PAS
+
+Publica NOMÉS els fitxers d’aquesta carpeta. No publiquis la carpeta del professorat.
+Els alumnes baixen els ZIP, els extreuen, obren la carpeta amb Visual Studio Code i executen index.html directament al navegador.
+Cada sessió porta instruccions clic a clic, exemples ABANS/DESPRÉS verificats i PDF.
+No cal GitHub, Vercel ni Live Server per a les activitats dels alumnes.
+El portal docent pot estar a Vercel per distribuir materials.
